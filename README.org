@@ -9,3 +9,20 @@
 At [[stationary-holder-gluestick.scad]].
 This container holds two [[https://web.archive.org/web/20230204151640/https://ohere.sg/products/3m-scotch-white-glue-stick-8g-30pcsbox-3m-6008-30d][3M Scotch glue sticks]], laid on its long side, stacked vertically.
 The intended use is to store a new glue stick at the bottom of the stack of two, while keeping the used glue stick at the top.
+
+* Contributing
+
+This repository depends on [[https://github.com/kennetek/gridfinity-rebuilt-openscad][gridfinity-rebuilt-openscad]] as a submodule.
+So, make sure that the submodule is populated by specifying:
+
+#+begin_src bash
+git clone --recurse-submodules https://github.com/ning-y/gridfinity-extensions.git
+#+end_src
+
+Or if you've already cloned this repository without `--recurse-submodules`:
+
+#+begin_src bash
+git clone https://github.com/ning-y/gridfinity-extensions.git
+cd gridfinity-extensions
+git submodule update --init --recursive
+#+end_src
