@@ -10,6 +10,12 @@ At [[stationary-holder-gluestick.scad]].
 This container holds two [[https://web.archive.org/web/20230204151640/https://ohere.sg/products/3m-scotch-white-glue-stick-8g-30pcsbox-3m-6008-30d][3M Scotch glue sticks]], laid on its long side, stacked vertically.
 The intended use is to store a new glue stick at the bottom of the stack of two, while keeping the used glue stick at the top.
 
+** Marker and tape holder
+
+#+html: <p align="center"><img src="docs/stationary-holder-tape-and-marker.png" /></p>
+
+At [[stationary-holder-tape-and-marker.scad]].
+
 * Contributing
 
 This repository depends on [[https://github.com/kennetek/gridfinity-rebuilt-openscad][gridfinity-rebuilt-openscad]] as a submodule.
